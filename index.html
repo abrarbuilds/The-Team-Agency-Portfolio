@@ -1,314 +1,296 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Team Agency Portfolio</title>
 <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<!-- NAV -->
+
+<!--nav-->
+
 <header>
-<nav id="navbar">
-  <div class="logo">Nexus<span>.</span></div>
-  <ul class="nav-links" id="navLinks">
-    <li><a href="#home">Home</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#team">Team</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-  <div style="display:flex;gap:.75rem;align-items:center">
-    <button class="theme-toggle" id="themeBtn" title="Toggle theme">☀</button>
-    <button class="hamburger" id="hamburger" aria-label="Menu">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
-</nav>
+    <nav class="navbar">
+        <div class="logo">
+            Nexus<span>.</span>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button class="theme-toggle">
+            ☀
+        </button>
+    </nav>
 </header>
 
-<!-- MOBILE MENU -->
-<div class="mobile-menu" id="mobileMenu">
-  <a href="#home" class="mob-link">Home</a>
-  <a href="#about" class="mob-link">About</a>
-  <a href="#team" class="mob-link">Team</a>
-  <a href="#skills" class="mob-link">Skills</a>
-  <a href="#projects" class="mob-link">Projects</a>
-  <a href="#contact" class="mob-link">Contact</a>
-</div>
 
-<!-- HERO -->
 <section class="hero" id="home">
-  <div class="hero-content">
-    <span class="hero-tagline">Creative &amp; Engineering</span>
-    <h1>We build things<br><em>worth using.</em></h1>
-    <p>Nexus is a cross-functional team of designers and engineers crafting digital products that are fast, accessible and genuinely useful.</p>
-    <div class="hero-buttons">
-      <a href="#projects" class="btn btn-primary">View Our Work</a>
-      <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+
+    <div class="hero-content">
+
+        <span class="tagline">
+            CREATIVE & ENGINEERING
+        </span>
+
+        <h1>
+            We build things <br>
+            <span>worth using.</span>
+        </h1>
+
+        <p>
+            Nexus is a cross-functional team of designers and engineers
+            crafting digital products that are fast, accessible and
+            genuinely useful.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#projects" class="btn primary-btn">
+                View Our Work
+            </a>
+
+            <a href="#contact" class="btn secondary-btn">
+                Get In Touch
+            </a>
+        </div>
+
     </div>
-  </div>
-  <div class="hero-image reveal">
-    <div class="hero-shape hero-shape-1"></div>
-    <div class="hero-shape hero-shape-2"></div>
-    <img src="https://i.ibb.co/MyzmpG5N/team.png" alt="Nexus team at work">
-  </div>
+
+    <div class="hero-image">
+
+        <div class="shape shape1"></div>
+        <div class="shape shape2"></div>
+
+        <img src="https://i.ibb.co/MyzmpG5N/team.png"
+             alt="Team">
+
+    </div>
+
 </section>
 
-<!-- ABOUT -->
-<section class="about" id="about">
-  <div class="about-inner">
-    <div class="about-left reveal">
-      <div class="section-eyebrow">About Us</div>
-      <h2 class="section-headline">A team that ships with intention.</h2>
-      <p>Founded in 2018, Nexus started as two engineers and a whiteboard. Today we're a four-person team spanning cyber security, DevOps, backend, and full-stack development — unified by a shared obsession with craft.</p>
-      <p>We work with early-stage startups and established companies alike, focusing on clarity of thought before a single line of code is written. Good software starts with good questions.</p>
+<!--about-->
+<section class="about section" id="about">
+
+    <div class="section-header">
+        <h2>About Us</h2>
+        <p>
+            We are a passionate team of developers,
+            designers and innovators dedicated to
+            creating impactful digital experiences.
+        </p>
     </div>
-    <div class="about-right reveal reveal-delay-2">
-      <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&q=80" alt="Team collaborating" class="about-image">
-      <div class="about-stats">
-        <div class="stat-card reveal reveal-delay-1">
-          <div class="stat-number" data-target="6">0</div>
-          <div class="stat-label">Years Together</div>
+
+    <div class="about-container">
+
+        <div class="about-card">
+            <h3>Mission</h3>
+            <p>
+                Deliver scalable, user-friendly and innovative
+                solutions that help businesses grow.
+            </p>
         </div>
-        <div class="stat-card reveal reveal-delay-2">
-          <div class="stat-number" data-target="48">0</div>
-          <div class="stat-label">Projects Shipped</div>
+
+        <div class="about-card">
+            <h3>Vision</h3>
+            <p>
+                Become a globally recognized team known for
+                exceptional digital craftsmanship.
+            </p>
         </div>
-        <div class="stat-card reveal reveal-delay-3">
-          <div class="stat-number" data-target="31">0</div>
-          <div class="stat-label">Happy Clients</div>
+
+        <div class="about-card">
+            <h3>Values</h3>
+            <p>
+                Innovation, Collaboration, Integrity,
+                Excellence and Continuous Learning.
+            </p>
         </div>
-        <div class="stat-card reveal reveal-delay-4">
-          <div class="stat-number" data-target="4">0</div>
-          <div class="stat-label">Team Members</div>
-        </div>
-      </div>
+
     </div>
-  </div>
+
 </section>
 
-<!-- TEAM -->
-<section class="team" id="team">
-  <div class="team-inner">
-    <div class="team-header reveal">
-      <div class="section-eyebrow">The Team</div>
-      <h2 class="section-headline">Faces behind the pixels.</h2>
+<!--TEAM  -->
+
+<section class="team section" id="team">
+
+    <div class="section-header">
+        <h2>Our Team</h2>
+        <p>Meet the creative minds behind Nexus.</p>
     </div>
-    <div class="team-grid">
-      <div class="team-card reveal reveal-delay-1">
-        <img src="https://i.ibb.co/Y7VcFLzy/arinda.png" alt="Arindam Sarkar">
-        <div class="team-card-body">
-          <h3>Arindam Sarkar</h3>
-          <div class="team-role">Cyber Security Specialist</div>
-          <p class="team-bio">Obsessed with hardening systems before they're attacked. Thinks in threat models, speaks in zero-trust.</p>
-          <div class="team-socials">
-            <a href="#" title="GitHub">⌥</a>
-            <a href="#" title="LinkedIn">in</a>
-            <a href="#" title="Twitter">𝕏</a>
-          </div>
+
+    <div class="team-container">
+
+        <div class="team-card">
+            <img src="https://i.ibb.co/MyQhmqkK/adi.png" alt="Adithya H K">
+            <h3>Adithya H K</h3>
+            <p>JAVA Developer</p>
         </div>
-      </div>
-      <div class="team-card reveal reveal-delay-2">
-        <img src="https://i.ibb.co/RGKCMmHX/sohammmm.png" alt="Soham Shinde">
-        <div class="team-card-body">
-          <h3>Soham Shinde</h3>
-          <div class="team-role">DevOps Engineer</div>
-          <p class="team-bio">Kubernetes, Terraform, and the eternal pursuit of zero downtime. Ships infrastructure like code.</p>
-          <div class="team-socials">
-            <a href="#" title="GitHub">⌥</a>
-            <a href="#" title="LinkedIn">in</a>
-            <a href="#" title="Twitter">𝕏</a>
-          </div>
+
+        <div class="team-card">
+            <img src="https://i.ibb.co/v4H5r0kC/abrara.png" alt="Abrar Sheikh">
+            <h3>Muhammed Abrar Sheikh</h3>
+            <p>MERN stack Developer</p>
         </div>
-      </div>
-      <div class="team-card reveal reveal-delay-3">
-        <img src="https://i.ibb.co/MyQhmqkK/adi.png" alt="Adithya H K">
-        <div class="team-card-body">
-          <h3>Adithya H K</h3>
-          <div class="team-role">Java Developer</div>
-          <p class="team-bio">Backend systems architect. Optimises databases the way others optimise arguments — quietly and effectively.</p>
-          <div class="team-socials">
-            <a href="#" title="GitHub">⌥</a>
-            <a href="#" title="LinkedIn">in</a>
-            <a href="#" title="Twitter">𝕏</a>
-          </div>
+
+        <div class="team-card">
+            <img src="https://i.ibb.co/Y7VcFLzy/arinda.png" alt="Arindam Sarkar">
+            <h3>Arindam Sarkar</h3>
+            <p>Cyber Security Specialist</p>
         </div>
-      </div>
-      <div class="team-card reveal reveal-delay-4">
-        <img src="https://i.ibb.co/v4H5r0kC/abrara.png" alt="Abrar Sheikh">
-        <div class="team-card-body">
-          <h3>Muhammed Abrar Sheikh</h3>
-          <div class="team-role">MERN Stack Developer</div>
-          <p class="team-bio">Turns ideas into full-stack reality. React on the front, Node on the back, MongoDB holding it all together.</p>
-          <div class="team-socials">
-            <a href="#" title="GitHub">⌥</a>
-            <a href="#" title="LinkedIn">in</a>
-            <a href="#" title="Twitter">𝕏</a>
-          </div>
+
+        <div class="team-card">
+            <img src="https://i.ibb.co/RGKCMmHX/sohammmm.png" alt="Soham Shinde">
+            <h3>Soham Shinde</h3>
+            <p>Devops Enginner</p>
         </div>
-      </div>
+
     </div>
-  </div>
+
 </section>
 
-<!-- SKILLS -->
-<section class="skills" id="skills">
-  <div class="skills-inner">
-    <div class="reveal">
-      <div class="section-eyebrow">Expertise</div>
-      <h2 class="section-headline">What we're good at.</h2>
+<!--SKILLS -->
+
+<section class="skills section" id="skills">
+
+    <div class="section-header">
+        <h2>Skills</h2>
     </div>
+
     <div class="skills-grid">
-      <div class="skill-category reveal reveal-delay-1">
-        <h3>Security</h3>
-        <div class="skill-item"><div class="skill-top"><span class="skill-name">Penetration Testing</span><span class="skill-pct">92%</span></div><div class="skill-bar"><div class="skill-fill" data-width="92"></div></div></div>
-        <div class="skill-item"><div class="skill-top"><span class="skill-name">Network Security</span><span class="skill-pct">88%</span></div><div class="skill-bar"><div class="skill-fill" data-width="88"></div></div></div>
-        <div class="skill-item"><div class="skill-top"><span class="skill-name">SIEM / SOC</span><span class="skill-pct">80%</span></div><div class="skill-bar"><div class="skill-fill" data-width="80"></div></div></div>
-        <div class="skill-item"><div class="skill-top"><span class="skill-name">Zero Trust</span><span class="skill-pct">85%</span></div><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div></div>
-      </div>
-      <div class="skill-category reveal reveal-delay-2">
-        <h3>Frontend</h3>
-        <div class="skill-item"><div class="skill-top"><span class="skill-name">React / Next.js</span><span class="skill-pct">90%</span></div><div class="skill-bar"><div class="skill-fill" data-width="90"></div></div></div>
-        <div class="skill-item"><div class="skill-top"><span class="skill-name">JavaScript / TS</span><span class="skill-pct">88%</span></div><div class="skill-bar"><div class="skill-fill" data-width="88"></div></div></div>
-        <div class="skill-item"><div class="skill-top"><span class="skill-name">HTML5 / CSS3</span><span class="skill-pct">95%</span></div><div class="skill-bar"><div class="skill-fill" data-width="95"></div></div></div>
-        <div class="skill-item"><div class="skill-top"><span class="skill-name">Figma</span><span class="skill-pct">78%</span></div><div class="skill-bar"><div class="skill-fill" data-width="78"></div></div></div>
-      </div>
-      <div class="skill-category reveal reveal-delay-3">
-        <h3>Backend</h3>
-        <div class="skill-item"><div class="skill-top"><span class="skill-name">Node.js</span><span class="skill-pct">88%</span></div><div class="skill-bar"><div class="skill-fill" data-width="88"></div></div></div>
-        <div class="skill-item"><div class="skill-top"><span class="skill-name">Java / Spring</span><span class="skill-pct">85%</span></div><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div></div>
-        <div class="skill-item"><div class="skill-top"><span class="skill-name">MongoDB</span><span class="skill-pct">82%</span></div><div class="skill-bar"><div class="skill-fill" data-width="82"></div></div></div>
-        <div class="skill-item"><div class="skill-top"><span class="skill-name">REST / GraphQL</span><span class="skill-pct">80%</span></div><div class="skill-bar"><div class="skill-fill" data-width="80"></div></div></div>
-      </div>
-      <div class="skill-category reveal reveal-delay-4">
-        <h3>Platform</h3>
-        <div class="skill-item"><div class="skill-top"><span class="skill-name">Docker / K8s</span><span class="skill-pct">87%</span></div><div class="skill-bar"><div class="skill-fill" data-width="87"></div></div></div>
-        <div class="skill-item"><div class="skill-top"><span class="skill-name">Terraform</span><span class="skill-pct">80%</span></div><div class="skill-bar"><div class="skill-fill" data-width="80"></div></div></div>
-        <div class="skill-item"><div class="skill-top"><span class="skill-name">CI/CD Pipelines</span><span class="skill-pct">85%</span></div><div class="skill-bar"><div class="skill-fill" data-width="85"></div></div></div>
-        <div class="skill-item"><div class="skill-top"><span class="skill-name">Git / GitHub</span><span class="skill-pct">93%</span></div><div class="skill-bar"><div class="skill-fill" data-width="93"></div></div></div>
-      </div>
+
+        <div class="skill-box">HTML5</div>
+        <div class="skill-box">CSS3</div>
+        <div class="skill-box">JavaScript</div>
+        <div class="skill-box">React</div>
+        <div class="skill-box">Node.js</div>
+        <div class="skill-box">MongoDB</div>
+        <div class="skill-box">Figma</div>
+        <div class="skill-box">Git</div>
+
     </div>
-  </div>
+
 </section>
 
-<!-- PROJECTS -->
-<section class="projects" id="projects">
-  <div class="projects-inner">
-    <div class="reveal">
-      <div class="section-eyebrow">Our Work</div>
-      <h2 class="section-headline">Projects that speak<br>for themselves.</h2>
+<!--PROJECTS -->
+
+<section class="projects section" id="projects">
+
+    <div class="section-header">
+        <h2>Projects</h2>
+        <p>Some of our recent work.</p>
     </div>
-    <div class="filter-bar reveal">
-      <button class="filter-btn active" data-filter="all">All</button>
-      <button class="filter-btn" data-filter="web">Web App</button>
-      <button class="filter-btn" data-filter="api">API</button>
-      <button class="filter-btn" data-filter="tool">Tool</button>
-    </div>
+
     <div class="project-grid">
-      <div class="project-card reveal reveal-delay-1" data-cat="web">
-        <img src="https://i.ibb.co/N22cncGc/expense-tracker.jpg" alt="Expense Tracker">
-        <div class="project-card-body">
-          <div class="project-card-top"><h3>Expense Tracker</h3><div class="project-icons"><a href="#" title="GitHub">⌥</a><a href="#" title="Live">↗️</a></div></div>
-          <p>Full CRUD application to log income and expenses with charts and monthly summaries.</p>
-          <div class="project-tags"><span class="project-tag">React</span><span class="project-tag">Node</span><span class="project-tag">MongoDB</span></div>
+
+        <div class="project-card">
+            <img src="https://i.ibb.co/N22cncGc/expense-tracker.jpg" alt="expense tracker">
+            <h3>Expense Tracker</h3>
+            <p>An application to log income and expenses. Using CRUD</p>
         </div>
-      </div>
-      <div class="project-card reveal reveal-delay-2" data-cat="web">
-        <img src="https://i.ibb.co/mVsgnXd7/kan-ban.png" alt="Kanban Board">
-        <div class="project-card-body">
-          <div class="project-card-top"><h3>Kanban Task Board</h3><div class="project-icons"><a href="#" title="GitHub">⌥</a><a href="#" title="Live">↗️</a></div></div>
-          <p>Implements HTML5 Drag and Drop API with persistent state and team collaboration.</p>
-          <div class="project-tags"><span class="project-tag">JavaScript</span><span class="project-tag">CSS3</span><span class="project-tag">LocalStorage</span></div>
+
+        <div class="project-card">
+            <img src="https://i.ibb.co/mVsgnXd7/kan-ban.png" alt="to do kaan baan">
+            <h3>Kanban Task Board</h3>
+            <p>Implements the HTML5 Drag
+                and Drop API. Users</p>
         </div>
-      </div>
-      <div class="project-card reveal reveal-delay-3" data-cat="api">
-        <img src="https://i.ibb.co/32bHqd8/neeee.png" alt="News Portal">
-        <div class="project-card-body">
-          <div class="project-card-top"><h3>News Portal</h3><div class="project-icons"><a href="#" title="GitHub">⌥</a><a href="#" title="Live">↗️</a></div></div>
-          <p>Real-time news aggregator with async API integration, category filters and search.</p>
-          <div class="project-tags"><span class="project-tag">NewsAPI</span><span class="project-tag">Async/Await</span><span class="project-tag">JavaScript</span></div>
+
+        <div class="project-card">
+            <img src="https://i.ibb.co/32bHqd8/neeee.png" alt="live news">
+            <h3>News Portal</h3>
+            <p>Real-time news application with API integration.</p>
         </div>
-      </div>
-      <div class="project-card reveal reveal-delay-1" data-cat="web">
-        <img src="https://i.ibb.co/F4kKGpdD/quiz.jpg" alt="Quiz App">
-        <div class="project-card-body">
-          <div class="project-card-top"><h3>Interactive Quiz App</h3><div class="project-icons"><a href="#" title="GitHub">⌥</a><a href="#" title="Live">↗️</a></div></div>
-          <p>Multiple-choice quiz with running scores, timer, streak tracking and score calculation.</p>
-          <div class="project-tags"><span class="project-tag">JavaScript</span><span class="project-tag">HTML5</span><span class="project-tag">CSS3</span></div>
+
+        <div class="project-card">
+            <img src="https://i.ibb.co/F4kKGpdD/quiz.jpg" alt="quiz">
+            <h3>Interactive Quiz App</h3>
+            <p>A multiple-choice quiz tracking running scores, managing application calculating
+                scores</p>
         </div>
-      </div>
-      <div class="project-card reveal reveal-delay-2" data-cat="api">
-        <img src="https://i.ibb.co/kggk199D/github.png" alt="GitHub Explorer">
-        <div class="project-card-body">
-          <div class="project-card-top"><h3>GitHub Developer Explorer</h3><div class="project-icons"><a href="#" title="GitHub">⌥</a><a href="#" title="Live">↗️</a></div></div>
-          <p>Leverages GitHub REST API to surface detailed profile insights, repos and contribution graphs.</p>
-          <div class="project-tags"><span class="project-tag">GitHub API</span><span class="project-tag">React</span><span class="project-tag">REST</span></div>
+
+        <div class="project-card">
+            <img src="https://i.ibb.co/kggk199D/github.png" alt="github">
+            <h3>GitHub Developer Explorer</h3>
+            <p>Web application that leverages the GitHub REST API to provide detailed insights into any GitHub user’s profile. </p>
         </div>
-      </div>
+
     </div>
-  </div>
+
 </section>
 
-<!-- CONTACT -->
-<section class="contact" id="contact">
-  <div class="contact-inner">
-    <div class="contact-left reveal">
-      <div class="section-eyebrow">Contact</div>
-      <h2 class="section-headline">Let's build something together.</h2>
-      <p>Whether you have a fully-formed brief or just a rough idea, we'd love to hear from you. Response time is usually within one business day.</p>
-      <div class="contact-info-item">
-        <div class="contact-icon">✉</div>
-        <div><h4>Email</h4><p>hello@nexusteam.io</p></div>
-      </div>
-      <div class="contact-info-item">
-        <div class="contact-icon">📍</div>
-        <div><h4>Location</h4><p>Pimpri-Chinchwad, MH — Remote-first</p></div>
-      </div>
-      <div class="availability-box">
-        <h4>Currently accepting projects</h4>
-        <p>We have capacity for 2 new projects starting Q3 2026.</p>
-        <div class="avail-dot">Open to inquiries</div>
-      </div>
+<!--CONTACT -->
+
+<section class="contact section" id="contact">
+
+    <div class="section-header">
+        <h2>Contact Us</h2>
+        <p>Let's create something amazing together.</p>
     </div>
-    <div class="reveal reveal-delay-2">
-      <div class="contact-form" id="contactForm">
-        <div class="form-row">
-          <div class="form-group"><label>Name</label><input type="text" placeholder="Your name" id="fname"></div>
-          <div class="form-group"><label>Email</label><input type="email" placeholder="you@company.io" id="femail"></div>
-        </div>
-        <div class="form-group"><label>Subject</label><input type="text" placeholder="Project brief" id="fsubject"></div>
-        <div class="form-group"><label>Message</label><textarea rows="6" placeholder="Tell us about your project…" id="fmessage"></textarea></div>
-        <button class="btn-submit" id="submitBtn">✈️ Send Message</button>
-        <div id="form-error" style="color:#e84393;font-size:.82rem;display:none"></div>
-      </div>
-      <div class="form-success" id="formSuccess">
-        <div class="check">✅</div>
-        <h3>Message sent!</h3>
-        <p>We'll get back to you within one business day.</p>
-      </div>
-    </div>
-  </div>
+
+    <form class="contact-form">
+
+        <input type="text" placeholder="Your Name">
+
+        <input type="email" placeholder="Your Email">
+
+        <input type="text" placeholder="Subject">
+
+        <textarea rows="6" placeholder="Your Message"></textarea>
+
+        <button type="submit">
+            Send Message
+        </button>
+
+    </form>
+
 </section>
 
-<!-- FOOTER -->
+<!--FOOTER-->
+
 <footer>
-  <div class="footer-inner">
-    <div class="footer-logo">Nexus<span>.</span></div>
-    <div class="footer-links">
-      <a href="#">LinkedIn</a>
-      <a href="#">GitHub</a>
-      <a href="#">Twitter</a>
-      <a href="#">Instagram</a>
+
+    <div class="footer-content">
+
+        <h2>Nexus.</h2>
+
+        <p>
+            Building digital experiences that matter.
+        </p>
+
+        <div class="social-links">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+
+        <p class="copyright">
+            © 2026 Nexus. All Rights Reserved.
+        </p>
+
     </div>
-    <p class="footer-copy">©️ 2026 Nexus. All Rights Reserved. Built with intention.</p>
-  </div>
+
 </footer>
 
-<button id="scrollTopBtn" title="Back to top">↑</button>
+<!-- ================= SCROLL BUTTON ================= -->
 
-<script src="script.js"></script>
+<button id="scrollTopBtn">
+    ↑
+</button>
+    
+main
+    <script src="script.js"></script>
 </body>
+
 </html>
