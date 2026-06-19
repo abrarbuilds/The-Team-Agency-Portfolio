@@ -8,9 +8,9 @@ if (navbar) {
   window.addEventListener("scroll", () => {
 
     if (window.scrollY > 50) {
-      navbar.style.background = "rgba(13,13,15,.96)";
+      navbar.classList.add("scrolled");
     } else {
-      navbar.style.background = "";
+      navbar.classList.remove("scrolled");
     }
 
   });
