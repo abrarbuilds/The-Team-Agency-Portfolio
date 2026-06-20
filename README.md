@@ -42,8 +42,9 @@ Nexus is a collaborative portfolio website designed to highlight:
 * LocalStorage API
 * Intersection Observer API
 
-📂 Project Structure
+## 📂 Project Structure
 
+```text
 Nexus-Team-Agency-Portfolio/
 │
 ├── index.html
@@ -58,7 +59,8 @@ Nexus-Team-Agency-Portfolio/
 │   └── main.js
 │
 └── Screenshots/
-    └── images
+    └── images/
+```
 
 👥 Team Members
 
